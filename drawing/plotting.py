@@ -1,11 +1,7 @@
 import matplotlib.pyplot as plt
 from matplotlib.backends.backend_pdf import PdfPages
-import statistics
 import os, torch
 import numpy as np
-
-import pdb
-
 
 plt.style.use('fast')
 plt.rcParams["text.usetex"] = False
